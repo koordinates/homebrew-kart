@@ -1,6 +1,6 @@
 cask 'sno' do
-  version '0.3.1'
-  sha256 '0879e38ecb605888390056a6289005f3c679555beae5a95d17e9169bc431fb43'
+  version '0.4.0'
+  sha256 '8982f835b6520238c634fce4913b37ce63f339bdab67700dfcbca6dcc8c611e5'
 
   # github.com/koordinates/sno was verified as official when first introduced to the cask
   url "https://github.com/koordinates/sno/releases/download/v#{version}/Sno-#{version}.pkg"
