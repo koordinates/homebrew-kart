@@ -4,9 +4,9 @@ This repository provides a [Homebrew](https://brew.sh/) [Tap](https://docs.brew.
 
 ## How do I install Kart with Homebrew?
 
-`brew cask install koordinates/kart/kart`
+`brew install koordinates/kart/kart --cask`
 
-Or `brew tap koordinates/kart` and then `brew cask install kart`.
+Or `brew tap koordinates/kart` and then `brew install kart --cask`.
 
 Or install via URL (which will not receive updates):
 
