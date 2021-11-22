@@ -1,6 +1,6 @@
 cask "kart" do
-  version "0.10.6"
-  sha256 "5344230d5cc250cf9dc4b3094156862761edbffa8a26738d56c139612db92baa"
+  version "0.10.7"
+  sha256 "1df2c7e61a5000d4cf817a3914de6a11c46e570b6664fb43a541a16822864ed2"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}.pkg",
       verified: "github.com/koordinates/kart/"
