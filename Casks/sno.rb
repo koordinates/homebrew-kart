@@ -1,6 +1,6 @@
 cask "sno" do
-  version "0.10.7"
-  sha256 "1df2c7e61a5000d4cf817a3914de6a11c46e570b6664fb43a541a16822864ed2"
+  version "0.10.8"
+  sha256 "8734b30f3443945983ad6c0e7ed3c95cea65f2a025dca39f0e279d6fa8352690"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}.pkg",
       verified: "github.com/koordinates/kart/"
