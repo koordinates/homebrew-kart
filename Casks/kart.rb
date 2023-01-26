@@ -1,8 +1,8 @@
 cask "kart" do
-  version "0.11.5"
-  sha256 "6240269405bfbe7a5c43134aef193118c5a1bd2771063e101b7164ffdab6b127"
+  version "0.12.0"
+  sha256 "a967fcdab82b2229f4f8ad7096a99d6bc8657b7143e085aeeb53a9ab316856f3"
 
-  url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}.pkg",
+  url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-x86_64.pkg",
       verified: "github.com/koordinates/kart/"
   appcast "https://github.com/koordinates/kart/releases.atom"
   name "Kart"
@@ -11,7 +11,7 @@ cask "kart" do
 
   conflicts_with cask: "sno"
 
-  pkg "Kart-#{version}.pkg"
+  pkg "Kart-#{version}-macOS-x86_64.pkg"
 
   uninstall pkgutil: "com.koordinates.Sno.SnoCore"
 end
