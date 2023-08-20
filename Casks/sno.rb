@@ -1,6 +1,6 @@
 cask "sno" do
-  version "0.14.0"
-  sha256 "5b9df92462cac2913ceb06528c9faf50bcfb954d4f9c6558f9a7ffb8ed19154e"
+  version "0.14.1"
+  sha256 "6810d519b6d9a692274870ee44b99d0983f1b2bac2334470e40c09f7a8d4cc9b"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-x86_64.pkg",
       verified: "github.com/koordinates/kart/"
