@@ -1,6 +1,6 @@
 cask "kart" do
-  version "0.14.1"
-  sha256 "6810d519b6d9a692274870ee44b99d0983f1b2bac2334470e40c09f7a8d4cc9b"
+  version "0.14.2"
+  sha256 "88550e3c022c88293220f9a25ca30b8e5a770c48986bdd30457224d6820c0e87"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-x86_64.pkg",
       verified: "github.com/koordinates/kart/"
