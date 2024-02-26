@@ -7,10 +7,15 @@ cask "sno" do
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-#{arch}.pkg",
       verified: "github.com/koordinates/kart/"
-  appcast "https://github.com/koordinates/kart/releases.atom"
+
   name "Sno (now Kart)"
   desc "Distributed version-control for geospatial and tabular data"
   homepage "https://kartproject.org/"
+
+  livecheck do
+    url "https://github.com/koordinates/kart"
+    strategy :github_latest
+  end
 
   conflicts_with cask: "kart"
 
