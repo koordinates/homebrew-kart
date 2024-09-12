@@ -1,9 +1,9 @@
 cask "sno" do
-  version "0.15.2"
+  version "0.15.3"
   arch arm: "arm64", intel: "x86_64"
 
-  sha256 arm:   "442b1e9f628d9cb73873919c517c818ac8a9d0ede4968deb4464f289c59fd597",
-         intel: "9340fb7afbc9191e48d2949b006904d6d2198c27caf0be35c621a226c17364ab"
+  sha256 arm:   "6c3264fc7f9a80bbe1dc7450d645976597966b573a2bb7a636a6a43eddfe8e56",
+         intel: "bf6fa7e7b7ef2bed2af00f42e3caf5cd76c372af243c820da74665074c7e7cfc"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-#{arch}.pkg",
       verified: "github.com/koordinates/kart/"
