@@ -1,9 +1,9 @@
 cask "kart" do
-  version "0.16.0"
+  version "0.16.1"
   arch arm: "arm64", intel: "x86_64"
 
-  sha256 arm:   "32fc29f1f62b6b20681139fe18d9ab5fea169f1e493e43e1d9fd28f27fbe2f4f",
-         intel: "5f721c9f128ac070f0109a0e047f18ac016c982a2c156f766c9d7046a888d537"
+  sha256 arm:   "74f7626e3d26d537e992643890e8dda4fed269bf1fb7476e757aadea7f3cd883",
+         intel: "1a633c43666be78abe838e4d709f2a3a3f0c9709844759c3d41dad6b024c8ecf"
 
   url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-#{arch}.pkg",
       verified: "github.com/koordinates/kart/"
