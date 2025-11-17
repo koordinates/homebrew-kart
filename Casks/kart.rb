@@ -1,11 +1,9 @@
 cask "kart" do
-  version "0.16.1"
-  arch arm: "arm64", intel: "x86_64"
+  version "0.17.0"
 
-  sha256 arm:   "74f7626e3d26d537e992643890e8dda4fed269bf1fb7476e757aadea7f3cd883",
-         intel: "1a633c43666be78abe838e4d709f2a3a3f0c9709844759c3d41dad6b024c8ecf"
+  sha256 "406617e29e507e4fe4c56ba4ea266d73398a9ecce0c97b5bbfbfc12b640fa6e2"
 
-  url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-#{arch}.pkg",
+  url "https://github.com/koordinates/kart/releases/download/v#{version}/Kart-#{version}-macOS-arm64.pkg",
       verified: "github.com/koordinates/kart/"
 
   name "Kart"
@@ -17,9 +15,10 @@ cask "kart" do
     strategy :github_latest
   end
 
+  depends_on arch: :arm64
   conflicts_with cask: "sno"
 
-  pkg "Kart-#{version}-macOS-#{arch}.pkg"
+  pkg "Kart-#{version}-macOS-arm64.pkg"
 
   uninstall pkgutil: "com.koordinates.Sno.SnoCore"
 end
